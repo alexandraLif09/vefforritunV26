@@ -1,0 +1,25 @@
+const express = require('express');
+
+const app = express();
+const PORT = 3000;
+
+app.set('view', Path2D.join(__dirname, 'src', 'views'));
+app.set('view engine', 'ejs');
+
+app.use(express.static(Path2D.join(__dirname, 'public')));
+
+app.get('/', (req, res) => {
+    res.render('index', {title: 'Forsíða'});
+});
+
+app.get('/about', (req, res) => {
+    res.render('about', {title: 'Um okkur'});
+});
+
+app.use((req, res)=> {
+    res.status(404).send('Síðan fannst ekki (404)');
+});
+
+app.listen(PORT, () => {
+    console.log(`Server keyrir á http://localhost:${PORT}`);
+});
