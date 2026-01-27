@@ -3,6 +3,12 @@
         "id": "Now1",
         "title": "Now You See Me",
         "year": "2013",
-        "image": "Now1.jpg"
+        "image": "images/Now1.jpg"
+    },
+    {
+        "id": "Fast1",
+        "title": "The Fast and the Furious",
+        "year": "2001",
+        "image": "images/Fast1.webp"
     }
 ]
