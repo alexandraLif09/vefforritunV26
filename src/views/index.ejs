@@ -1,15 +1,19 @@
 <%- include('partials/header') %>
 
-        <h1>Góðar myndir</h1>
-        <div class="grid">
-            <% movies.forEach(movie => { %>
-                <div>
-                    <img src="<%= movie.image %>" alt="<%= movie.title %>">
-                    <h3><%= movie.title %></h3>
-                    <p><%= movie.year %></p>
-                    <a href="/movie/<%= movie.id %>" class="btn">Skoða nánar</a>
-                </div>
+    <h1>Góðar myndir</h1>
+    <div class="grid">
+        <% movies.forEach(movie=> { %>
+            <div>
+                <img src="<%= movie.image %>" alt="<%= movie.title %>">
+                <h3>
+                    <%= movie.title %>
+                </h3>
+                <p>
+                    <%= movie.year %>
+                </p>
+                <a href="/movie/<%= movie.id %>" class="btn">Skoða nánar</a>
+            </div>
             <% }) %>
-        </div>
+    </div>
 
-<%- include('partials/footer') %>
+    <%- include('partials/footer') %>
