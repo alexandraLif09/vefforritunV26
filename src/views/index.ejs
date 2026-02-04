@@ -3,7 +3,7 @@
     <h1>Góðar myndir</h1>
     <div class="grid">
         <% movies.forEach(movie=> { %>
-            <div>
+            <div class="card">
                 <img src="<%= movie.image %>" alt="<%= movie.title %>">
                 <h3>
                     <%= movie.title %>

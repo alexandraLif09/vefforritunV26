@@ -1,6 +1,42 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+.card {
+  background-color: rgb(255, 217.5, 224.0476190476);
+  padding: 10px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.details {
+  background-color: rgb(255, 217.5, 224.0476190476);
+  padding: 10px;
+  text-align: center;
+}
+.details img {
+  width: 50%;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+body {
+  background-color: pink;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
