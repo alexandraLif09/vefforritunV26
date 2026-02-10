@@ -6,9 +6,45 @@
         "image": "images/Now1_0.2.webp"
     },
     {
+        "id": "Now2",
+        "title": "Now You See Me 2",
+        "year": "2016",
+        "image": "images/Now2.jpg"
+    },
+    {
+        "id": "Now3",
+        "title": "Now You See Me: Now You Don't",
+        "year": "2025",
+        "image": "images/Now3.webp"
+    },
+    {
         "id": "Fast1",
         "title": "The Fast and the Furious",
         "year": "2001",
         "image": "images/Fast1.webp"
+    },
+    {
+        "id": "Fast2",
+        "title": "2 Fast 2 Furious",
+        "year": "2003",
+        "image": "images/Fast2.jpg"
+    },
+    {
+        "id": "Fast3",
+        "title": "The Fast and the Furious: Tokyo Drift",
+        "year": "2006",
+        "image": "images/Fast3.jpg"
+    },
+    {
+        "id": "Fast4",
+        "title": "Fast & Furious",
+        "year": "2009",
+        "image": "images/Fast4.jpg"
+    },
+    {
+        "id": "Fast5",
+        "title": "Fast Five",
+        "year": "2011",
+        "image": "images/Fast5.jpg"
     }
 ]
