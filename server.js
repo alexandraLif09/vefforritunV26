@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 
-const moviesRouter = require('./src/routes/movies.routes');
+const moviesRouter = require('./src/routes/routes');
 
 const app = express();
 const PORT = 3000;
