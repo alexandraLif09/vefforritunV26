@@ -2,7 +2,7 @@ const movieService = require('../lib/service');
 
 const index = (req, res) => {
     const movies = movieService.getMovies();
-    res.render('index', {title: '', movies});
+    res.render('index', {title: 'Góðar myndir', movies});
 };
 
 const details = (req, res) => {
@@ -16,7 +16,12 @@ const details = (req, res) => {
     res.render('details', {title: movie.title, movie});
 };
 
+const about = (req, res) => {
+    res.render('about', {title: 'Um mig'});
+};
+
 module.exports = {
     index, 
-    details
+    details,
+    about
 };
